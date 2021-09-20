@@ -1,0 +1,36 @@
+{
+  "name": "crypto-critters-contracts",
+  "version": "1.0.0",
+  "description": "Smart Contracts for Crypto Critters ",
+  "repository": "git@github.com:/DarcStar-Games-Tech/crypto-critters-contracts.git",
+  "author": "Michael Harris <mharris@darcstar-solutions.tech>",
+  "private": true,
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy-token": "hardhat run scripts/deploy.ts",
+    "upgrade-token": "hardhat run scripts/upgrade.ts",
+    "get-version": "hardhat run scripts/get-version.ts",
+    "get-abi": "jq .abi -c artifacts/contracts/CryptoCritters.sol/*.json"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@openzeppelin/contracts-upgradeable": "^4.3.2",
+    "@openzeppelin/hardhat-upgrades": "^1.10.0",
+    "@openzeppelin/upgrades-core": "^1.9.2",
+    "@typechain/ethers-v5": "^7.1.0",
+    "@typechain/hardhat": "^2.3.0",
+    "@types/chai": "^4.2.21",
+    "@types/mocha": "^9.0.0",
+    "@types/node": "^16.9.4",
+    "chai": "^4.3.4",
+    "dotenv": "^10.0.0",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.4.7",
+    "hardhat": "^2.6.4",
+    "snyk": "^1.717.0",
+    "ts-node": "^10.2.1",
+    "typechain": "^5.1.2",
+    "typescript": "4.4.3"
+  }
+}
