@@ -6,6 +6,7 @@
 /cache
 /.openzeppelin
 /.idea
+/typechain
 
 # misc
 .DS_Store
