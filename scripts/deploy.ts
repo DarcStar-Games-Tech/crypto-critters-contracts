@@ -1,5 +1,5 @@
 import { upgrades, ethers } from "hardhat";
-import {CryptoCritterToken, CryptoCritterToken__factory} from "../typechain";
+import { CryptoCritterToken, CryptoCritterToken__factory } from "../typechain";
 
 async function main() {
   const name = "CryptoCritterToken";
