@@ -6,3 +6,9 @@ export const CRYPTO_CRITTER_TOKEN_ROLES = {
   PAUSER_ROLE: keccak256(toUtf8Bytes("PAUSER_ROLE")),
   UPGRADER_ROLE: keccak256(toUtf8Bytes("UPGRADER_ROLE")),
 };
+
+export const CRYPTO_CRITTER_CRADLE_ROLES = {
+  WITHDRAW_ROLE: keccak256(toUtf8Bytes("WITHDRAW_ROLE")),
+  PAUSER_ROLE: keccak256(toUtf8Bytes("PAUSER_ROLE")),
+  UPGRADER_ROLE: keccak256(toUtf8Bytes("UPGRADER_ROLE")),
+};
